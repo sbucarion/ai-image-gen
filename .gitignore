@@ -1,6 +1,9 @@
-# Project files
+# Project folders
 stable-diffusion-webui/
 images/
+
+# Project 
+src/api_config.py
 
 # Environments
 .env

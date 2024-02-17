@@ -7,10 +7,6 @@ import time
 from api_config import txt2img_settings, model
 
 
-load_dotenv()
-PROJECT_PATH = os.getenv('PROJECT_PATH')
-
-
 def setup_api_connection():
     api = webuiapi.WebUIApi()
     api = webuiapi.WebUIApi(host='127.0.0.1', port=7860)
