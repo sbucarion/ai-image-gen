@@ -22,6 +22,11 @@ __pypackages__/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
 
 # Flask stuff:
 instance/
